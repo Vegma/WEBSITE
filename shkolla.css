@@ -1,0 +1,147 @@
+body{
+    background-image: url(../project/code.jpg);
+    background-size: 120%;
+    
+
+}
+
+
+
+h1{
+    padding-top: 170px;
+    
+    
+}
+
+.b {
+    color: rgba(214, 170, 47, 0.986);
+    font-size: 2.5cm;
+    font-family: 'Calibri'
+    
+}
+.c{
+    font-size: 2.5cm;
+    color:white;
+    font-family: 'Calibri'
+}
+.d{
+    background-color: transparent;
+    color: rgb(88, 14, 14);
+    font-size: 1cm;
+    text-decoration: none;
+    margin: 18px;
+    font-family: 'Permanent Marker';
+    float:left;
+
+
+    
+    
+
+}
+.d:hover{
+    border-bottom: 3px solid whitesmoke;
+    
+
+    
+    
+   
+    
+    
+}
+.id{
+    color: rgba(214, 170, 47, 0.986);
+    font-size: 18px;
+    font-display: 'Verdana';
+    
+    
+}
+
+.bord{
+    background-color: rgb(194, 185, 185, 0.3);
+    border-right: 7px solid black;
+    text-emphasis: none;
+    font-size: 20px;
+    font-display: Bold;
+    width: 1250px;
+    color: white;
+    font-family: 'Raleway';
+}
+    
+    .wrapper {
+        position: absolute;
+        top: 9%;
+        right: -42%;
+        transform: translate(-50%, -50%);
+        width: 550px;
+      }
+      
+      /* Style the Un-order list by setting its list-style to none */
+      .wrapper ul {
+        list-style: none;
+      }
+      
+      /* Style the list items inside the UL list, by setting its width, height and line-height 
+        and float them to left and set its border and border-radius.
+       */
+      .wrapper ul li {
+        width: 75px;
+        height: 75px;
+        line-height: 75px;
+        margin: 70px 10px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%;
+        border: 5px solid #D8E2DC;
+        float: left;
+        transition: all 0.5s ease;
+        
+      }
+      
+      /* Style the icons by setting its color and margin-top value to 20px 
+      to align it properly */
+      .wrapper ul li .fa {
+        color: #D8E2DC;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        transition: all 0.5s ease;
+      }
+      
+       
+      
+      .wrapper ul li:hover.facebook {
+        border: 5px solid #3b5998;
+        box-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+      }
+
+      .wrapper ul li:hover .fa-facebook {
+        color: #3b5998;
+        text-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+      }
+      
+      
+
+      
+      .wrapper ul li:hover.twitter {
+        border: 5px solid #00aced;
+        box-shadow: 0 0 15px #00aced;
+        transition: all 0.5s ease;
+      }
+      
+      .wrapper ul li:hover .fa-twitter {
+        color: #00aced;
+        text-shadow: 0 0 15px #00aced;
+        transition: all 0.5s ease;
+      }
+    
+      /* media queries */
+      
+
+      
+
+  
+  
+    
+  
+  
